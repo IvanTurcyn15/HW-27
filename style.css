@@ -30,7 +30,9 @@ a{
     top: -16px;
     left: 0;
     padding-top: 60px;
-    display: none;
+    /* display: none; */
+    transition: transform 0.5s ease;
+    transform: translate(-103%, -4%);
 }
 
 .link{
@@ -49,7 +51,6 @@ link:hover{
 }
 
 .menu:hover .submenu{
-    display: block;
     transform: translateY(-5%) translateX(-5%);
 }
 
